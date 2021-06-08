@@ -3,9 +3,8 @@
  */
 import java.util.ArrayList;
 import java.util.List;
-
-  @SuppressWarnings("unchecked")
-
+//This is supressing the warning about the List not being explicit?
+  @SuppressWarnings("all")
 public class Author extends Person {
     private List books;
 
